@@ -1,0 +1,221 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin: 50px;
+}
+ 
+ nav{
+    display: flex;
+    justify-content:space-around;
+    background-color:rgba(0, 0, 139, 0.982);
+    padding: 30px;
+    color: aliceblue;
+    height: 30px;
+    gap: 10px;
+    padding-top: 10px;
+    
+    
+
+}
+.logo img{
+   
+    height:4.2rem;
+    margin-top:-20px;
+    padding:0.7rem;
+    width:6rem;
+   
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.items ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+ 
+  
+}
+li{
+  font-size: 17px;
+}
+
+.items ul li:hover{
+  border-bottom:2px solid wheat;
+  transition:0.2s;
+}
+.hero-section{
+    background-image: url(./photo/hero_image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:10px ;
+    display: grid;
+    place-items: center;
+    text-align: center;
+       
+}
+.hero-section .container1{
+    display: flex;
+   
+   flex-direction: column;
+   
+    color: aliceblue;
+
+}
+ .music-section .container{
+    display: grid;
+   place-items: center;
+   text-align: center;
+   
+   color: aliceblue;
+   
+}
+.primary-btn{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color:red ;
+    transition: 0.2s ease-in-out;
+}
+.music-section{
+    background-color: blueviolet;
+    padding-top: 50px;
+}
+.music-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+.ipad-iphone-img {
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+    background-size: cover;
+  }
+  .about-music { padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+   
+button{
+    height: 50px;
+    width: 200px;
+    color: aliceblue;
+    background-color: blue;
+    border: 0;
+    font-weight:600;
+    
+}
+.video-container {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    
+}
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+    object-fit: cover; 
+    background-color: black; 
+  }
+  .container4{
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    
+  }
+  .gift{
+    display: flex;
+    background-size: cover;
+    padding: 30px;
+   
+}
+
+  .gift img{
+    padding: 30px;
+  }
+  .gift button{
+    cursor: pointer;
+    margin-top: 20px;
+   
+  }
+  /*.container5{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    background-color:navy;
+    color: antiquewhite;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;*/
+    .footer-upper {
+      background-color:purple;
+      padding: 20px;
+    }
+    
+   
+  
+  .footer-upper .container5 {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    
+  }
+  .footer-upper h4 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  ul, li{
+    cursor: pointer;
+  }
+  .footer-lower {
+    background-color:blue;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    color: white;}
+   
+  li{
+    list-style-type: none;
+    margin-right: 100px;
+
+   }
+  
+  .gift {
+    scroll-margin: 120px;
+  }
+  
+  
